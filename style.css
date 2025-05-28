@@ -82,10 +82,11 @@ header h1 {
     max-width: 900px;
     text-align: center;
     font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+    scroll-margin-top: 50px;
 }
 
 #menu h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #6b4ca1;
     margin-bottom: 2rem;
     letter-spacing: 2px;
