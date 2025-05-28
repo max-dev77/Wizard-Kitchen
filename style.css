@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background: url('./img/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+header img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+header {
+    position: relative;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+    image-rendering: pixelated;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #fffbe6;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0;
+    border: 3px solid #6b4ca1;
+    box-shadow: 4px 4px 0 #6b4ca1, 8px 8px 0 #e0d7f3;
+    transition: box-shadow 0.2s, background 0.2s;
+    font-family: inherit;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    background: #e0d7f3;
+    box-shadow: 2px 2px 0 #6b4ca1, 4px 4px 0 #e0d7f3;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    color: #6b4ca1;
+    background: rgba(255,251,230,0.92);
+    padding: 1.2rem 2.5rem;
+    border: 4px solid #6b4ca1;
+    box-shadow: 6px 6px 0 #e0d7f3;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 3;
+}
+
+#menu {
+    margin: 3rem auto 0 auto;
+    max-width: 900px;
+    text-align: center;
+    font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+}
+
+#menu h2 {
+    font-size: 1.5rem;
+    color: #6b4ca1;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.menu-items article {
+    background: #fffbe6;
+    border: 3px solid #6b4ca1;
+    box-shadow: 4px 4px 0 #e0d7f3;
+    border-radius: 0;
+    width: 272px;
+    padding: 1.2rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: inherit;
+}
+
+.menu-items img {
+    width: 142px;
+    height: 142px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    image-rendering: pixelated;
+}
+
+.menu-items h3 {
+    font-size: 1.3rem;
+    color: #6b4ca1;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+}
+
+.menu-items p {
+    font-size: 1rem;
+    color: #222;
+    margin: 0;
+}
+
+.menu-items i {
+    color: #4e3a7a;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#order-form {
+    margin: 3.5rem auto 2rem auto;
+    max-width: 600px;
+    background: #fffbe6;
+    border: 3px solid #6b4ca1;
+    box-shadow: 4px 4px 0 #e0d7f3;
+    padding: 2.2rem 2rem 2.5rem 2rem;
+    font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+    border-radius: 0;
+    font-size: 1.08rem;
+}
+
+#order-form h2 {
+    color: #6b4ca1;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#order-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#order-form fieldset {
+    border: 2px solid #6b4ca1;
+    margin-bottom: 1.2rem;
+    padding: 1rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 0;
+    background: #f7f2e7;
+    box-shadow: 2px 2px 0 #e0d7f3;
+}
+
+#order-form legend {
+    font-size: 1rem;
+    color: #4e3a7a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#order-form label {
+    font-size: 1.08rem;
+    color: #222;
+    margin-right: 0.7rem;
+    font-family: inherit;
+}
+
+#order-form input[type="number"] {
+    width: 60px;
+    font-size: 1.08rem;
+    font-family: inherit;
+    padding: 0.2rem 0.4rem;
+    border: 2px solid #6b4ca1;
+    background: #fff;
+    margin-bottom: 0.7rem;
+}
+
+#order-form input[type="checkbox"],
+#order-form input[type="radio"] {
+    accent-color: #6b4ca1;
+    margin-right: 0.4rem;
+}
+
+#order-form textarea {
+    font-family: inherit;
+    font-size: 1.08rem;
+    border: 2px solid #6b4ca1;
+    background: #fff;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+#order-form input[type="submit"] {
+    font-family: inherit;
+    font-size: 1.15rem;
+    background: #6b4ca1;
+    color: #fffbe6;
+    border: 3px solid #4e3a7a;
+    box-shadow: 3px 3px 0 #e0d7f3;
+    padding: 0.7rem 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+#order-form input[type="submit"]:hover {
+    background: #4e3a7a;
+    box-shadow: 1px 1px 0 #e0d7f3;
+}
+
+footer {
+    width: 100%;
+    background: #6b4ca1;
+    color: #fffbe6;
+    text-align: center;
+    padding: 1.2rem 0 1.1rem 0;
+    font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    box-shadow: 0 -3px 0 #e0d7f3;
+    margin-top: 2.5rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.background-img {
+    display: none;
+}
+
