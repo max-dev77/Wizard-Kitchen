@@ -9,9 +9,9 @@ It combines retro pixel art with a magical fantasy theme — all visuals are AI-
 
 ## 📸 Screenshots
 
-![Hero](./assets/screenshot-hero.png)
-![Menu](./assets/screenshot-menu.png)
-![Order](./assets/screenshot-order.png)
+![Hero](./screenshots/hero.png)
+![Menu](./screenshots/menu.png)
+![Order](./screenshots/order.png)
 
 ---
 
