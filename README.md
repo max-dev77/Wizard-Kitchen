@@ -3,7 +3,7 @@
 **Wizard Kitchen** is a fictional restaurant website built as the final project for the *Codedex Origins 1: HTML* course.  
 It combines retro pixel art with a magical fantasy theme — all visuals are AI-generated (GPT).
 
-👉 [Live Demo](https://taketdev.github.io/Wizard-Kitchen/)
+👉 [Live Demo](https://max-dev77.github.io/Wizard-Kitchen/)
 
 ---
 
