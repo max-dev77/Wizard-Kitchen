@@ -36,7 +36,7 @@ It combines retro pixel art with a magical fantasy theme — all visuals are AI-
 
 Clone & open `index.html` in your browser:
 ```bash
-git clone https://github.com/taketdev/Wizard-Kitchen.git
+git clone https://github.com/max-dev77/Wizard-Kitchen.git
 
 🧾 Notes
 This project was created for learning purposes.
